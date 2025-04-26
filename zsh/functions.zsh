@@ -22,3 +22,10 @@ function setup_package_lists() {
 function add_package_to_linux_list() {
   echo "sudo apt install $package" >> $LINUX_INSTALL_LIST
 }
+
+function source_dotfiles() {
+  echo "🧑‍💻 Sourcing .zprofile"
+  source $HOME/.zprofile
+  echo "🧑‍💻 Sourcing .zshrc"
+  source $HOME/.zshrc
+}
