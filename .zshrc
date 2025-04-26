@@ -127,7 +127,8 @@ source $ZSH/oh-my-zsh.sh
 
 ZSH_CONFIG_DIR="$HOME/dotfiles/zsh"
 source "$ZSH_CONFIG_DIR/aliases.zsh"
-[ -f "$ZSH_CONFIG_DIR/toppan_secrets.zsh" ] && source "$ZSH_CONFIG_DIR/toppan_secrets.zsh"
+source "$ZSH_CONFIG_DIR/functions.zsh"
+[ -f "$ZSH_CONFIG_DIR/work-secrets.zsh" ] && source "$ZSH_CONFIG_DIR/work-secrets.zsh"
 if [[ "$(uname -s)" == "Darwin" ]]; then
   # On macOS, source keybindings.zsh
   source "$HOME/dotfiles/zsh/keybinds.zsh"
