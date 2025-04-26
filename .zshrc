@@ -142,3 +142,7 @@ fi
 if which direnv > /dev/null; then
   eval "$(direnv hook bash)"
 fi
+
+if which zoxide > /dev/null; then
+  eval "$(zoxide init zsh)"
+fi
