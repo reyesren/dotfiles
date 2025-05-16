@@ -29,3 +29,11 @@ function source_dotfiles() {
   echo "🧑‍💻 Sourcing .zshrc"
   source $HOME/.zshrc
 }
+
+function list_docker_ids_for_container() {
+  docker ps --filter "label=com.docker.compose.project=$1" -q
+}
+
+function stop_project_containers() {
+  list_docker_ids_for_container $1 | xargs docker stop
+}
