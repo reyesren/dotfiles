@@ -129,10 +129,6 @@ ZSH_CONFIG_DIR="$HOME/dotfiles/zsh"
 source "$ZSH_CONFIG_DIR/aliases.zsh"
 source "$ZSH_CONFIG_DIR/functions.zsh"
 [ -f "$ZSH_CONFIG_DIR/work-secrets.zsh" ] && source "$ZSH_CONFIG_DIR/work-secrets.zsh"
-if [[ "$(uname -s)" == "Darwin" ]]; then
-  # On macOS, source keybindings.zsh
-  source "$HOME/dotfiles/zsh/keybinds.zsh"
-fi
 
 if which pyenv > /dev/null; then
   eval "$(pyenv init --path)"
