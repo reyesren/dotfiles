@@ -10,3 +10,5 @@ sudo apt install wget
 sudo apt install ripgrep
 sudo apt install git
 sudo apt install zoxide
+
+sudo snap install diff-so-fancy

@@ -1,0 +1,7 @@
+[pager]
+	branch = false
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFXS
+[user]
+	email = r.reyes@live.com
+	name = Renzo Reyes
