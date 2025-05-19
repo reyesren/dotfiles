@@ -1,2 +1,13 @@
 work-secrets.zsh
 notes.md
+
+dotfiles/.config/*
+!dotfiles/.config/
+!dotfiles/.config/kitty/
+!dotfiles/.config/kitty/*
+!dotfiles/.config/tiling-assistant/
+!dotfiles/.config/tiling-assistant/*
+!dotfiles/.config/ulauncher/
+!dotfiles/.config/ulauncher/*
+
+.zcompdump*
