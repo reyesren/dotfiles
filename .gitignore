@@ -3,6 +3,8 @@ notes.md
 
 dotfiles/.config/*
 !dotfiles/.config/
+!dotfiles/.config/ghostty
+!dotfiles/.config/ghostty/*
 !dotfiles/.config/kitty/
 !dotfiles/.config/kitty/*
 !dotfiles/.config/tiling-assistant/
