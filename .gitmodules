@@ -22,3 +22,6 @@
 [submodule "dotfiles/.config/kitty/kitty_grab"]
 	path = dotfiles/.config/kitty/kitty_grab
 	url = https://github.com/yurikhan/kitty_grab.git
+[submodule "dotfiles/zsh/.oh-my-zsh--custom/themes/headline"]
+	path = dotfiles/zsh/.oh-my-zsh--custom/themes/headline
+	url = https://github.com/moarram/headline.git

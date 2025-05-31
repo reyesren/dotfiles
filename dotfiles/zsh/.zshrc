@@ -13,7 +13,7 @@ export ZSH_CUSTOM="$ZDOTDIR/.oh-my-zsh--custom"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="headline"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -120,8 +120,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 ZSH_CONFIG_DIR="$ZDOTDIR"
 source "$ZSH_CONFIG_DIR/aliases.zsh"
@@ -140,4 +138,8 @@ fi
 
 if which zoxide > /dev/null; then
   eval "$(zoxide init zsh)"
+fi
+
+if which fzf > /dev/null; then
+  [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 fi
