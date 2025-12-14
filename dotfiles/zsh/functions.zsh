@@ -25,9 +25,9 @@ function add_package_to_linux_list() {
 
 function source_dotfiles() {
   echo "🧑‍💻 Sourcing .zprofile"
-  source $HOME/.zprofile
+  source $ZDOTDIR/.zprofile
   echo "🧑‍💻 Sourcing .zshrc"
-  source $HOME/.zshrc
+  source $ZDOTDIR/.zshrc
 }
 
 function list_docker_ids_for_container() {

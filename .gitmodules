@@ -1,0 +1,27 @@
+[submodule "dotfiles/zsh/.oh-my-zsh--custom/plugins/zsh-syntax-highlighting"]
+	path = dotfiles/zsh/.oh-my-zsh--custom/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "dotfiles/zsh/.oh-my-zsh--custom/plugins/zsh-shift-select"]
+	path = dotfiles/zsh/.oh-my-zsh--custom/plugins/zsh-shift-select
+	url = https://github.com/jirutka/zsh-shift-select.git
+[submodule "dotfiles/zsh/oh-my-zsh--custom/themes/powerlevel10k"]
+	path = dotfiles/zsh/oh-my-zsh--custom/themes/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "dotfiles/zsh/oh-my-zsh"]
+	path = dotfiles/zsh/oh-my-zsh
+	url = https://github.com/ohmyzsh/ohmyzsh
+[submodule "dotfiles/zsh/.oh-my-zsh--custom/themes/powerlevel10k"]
+	path = dotfiles/zsh/.oh-my-zsh--custom/themes/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "dotfiles/zsh/.oh-my-zsh"]
+	path = dotfiles/zsh/.oh-my-zsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git
+[submodule "dotfiles/zsh/.oh-my-zsh--custom/plugins/zsh-autosuggestions"]
+	path = dotfiles/zsh/.oh-my-zsh--custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "dotfiles/.config/kitty/kitty_grab"]
+	path = dotfiles/.config/kitty/kitty_grab
+	url = https://github.com/yurikhan/kitty_grab.git
+[submodule "dotfiles/zsh/.oh-my-zsh--custom/themes/headline"]
+	path = dotfiles/zsh/.oh-my-zsh--custom/themes/headline
+	url = https://github.com/moarram/headline.git

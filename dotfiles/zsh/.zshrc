@@ -5,17 +5,15 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-
 # Path to your Oh My Zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$ZDOTDIR/.oh-my-zsh"
+export ZSH_CUSTOM="$ZDOTDIR/.oh-my-zsh--custom"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="headline"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -122,12 +120,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-ZSH_CONFIG_DIR="$HOME/dotfiles/zsh"
+ZSH_CONFIG_DIR="$ZDOTDIR"
 source "$ZSH_CONFIG_DIR/aliases.zsh"
 source "$ZSH_CONFIG_DIR/functions.zsh"
+source "$ZSH_CONFIG_DIR/p10k.zsh"
 [ -f "$ZSH_CONFIG_DIR/work-secrets.zsh" ] && source "$ZSH_CONFIG_DIR/work-secrets.zsh"
 
 if which pyenv > /dev/null; then
@@ -141,4 +138,8 @@ fi
 
 if which zoxide > /dev/null; then
   eval "$(zoxide init zsh)"
+fi
+
+if which fzf > /dev/null; then
+  [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 fi
