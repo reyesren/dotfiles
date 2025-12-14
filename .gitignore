@@ -2,7 +2,10 @@ work-secrets.zsh
 notes.md
 
 dotfiles/.config/*
+dotfiles/git/config.local
+
 !dotfiles/.config/
+!dotfiles/.config/git
 !dotfiles/.config/ghostty
 !dotfiles/.config/ghostty/*
 !dotfiles/.config/kitty/
@@ -11,5 +14,6 @@ dotfiles/.config/*
 !dotfiles/.config/tiling-assistant/*
 !dotfiles/.config/ulauncher/
 !dotfiles/.config/ulauncher/*
+!dotfiles/.config/zsh
 
 .zcompdump*

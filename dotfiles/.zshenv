@@ -1,2 +1,2 @@
-export ZDOTDIR=$HOME/zsh
-export GIT_CONFIG_GLOBAL=$HOME/dotfiles/dotfiles/git/.gitconfig
+export ZDOTDIR=$HOME/.config/zsh
+export GIT_CONFIG_GLOBAL=$HOME/.config/git/.gitconfig
