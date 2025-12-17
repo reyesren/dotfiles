@@ -2,7 +2,7 @@ work-secrets.zsh
 notes.md
 
 dotfiles/.config/*
-dotfiles/git/config.local
+dotfiles/.config/git/config.local
 
 !dotfiles/.config/
 !dotfiles/.config/git
