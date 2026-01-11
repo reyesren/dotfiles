@@ -4,6 +4,7 @@ notes.md
 dotfiles/.config/*
 dotfiles/.config/git/config.local
 
+
 !dotfiles/.config/
 !dotfiles/.config/git
 !dotfiles/.config/ghostty
@@ -17,3 +18,4 @@ dotfiles/.config/git/config.local
 !dotfiles/.config/zsh
 
 .zcompdump*
+dotfiles/.config/zsh/.zsh_history
