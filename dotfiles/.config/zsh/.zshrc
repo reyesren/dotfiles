@@ -121,7 +121,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export XDG_CONFIG_HOME="$HOME/.config"
 
 ZSH_CONFIG_DIR="$ZDOTDIR"
 source "$ZSH_CONFIG_DIR/aliases.zsh"
