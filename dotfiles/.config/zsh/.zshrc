@@ -121,6 +121,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export XDG_CONFIG_HOME="$HOME/.config"
+
 ZSH_CONFIG_DIR="$ZDOTDIR"
 source "$ZSH_CONFIG_DIR/aliases.zsh"
 source "$ZSH_CONFIG_DIR/functions.zsh"
@@ -142,4 +144,13 @@ fi
 
 if which fzf > /dev/null; then
   [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+fi
+
+if [[ -n "$NVM_DIR" && -s "$NVM_DIR/nvm.sh" ]]; then
+  source "$NVM_DIR/nvm.sh"
+fi
+
+if type rg &> /dev/null; then
+  export FZF_DEFAULT_COMMAND='rg --files --hidden'
+  export FZF_DEFAULT_OPTS='-m'
 fi

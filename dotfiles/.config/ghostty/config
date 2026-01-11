@@ -46,6 +46,7 @@ theme = citruszest
 
 background-opacity = 0.9
 background-blur-radius = 40
+command = /usr/bin/zsh -l -i
 font-family = JetBrainsMono Nerd Font
 font-size = 13
 mouse-hide-while-typing = true
