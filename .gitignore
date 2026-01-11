@@ -15,7 +15,10 @@ dotfiles/.config/git/config.local
 !dotfiles/.config/tiling-assistant/*
 !dotfiles/.config/ulauncher/
 !dotfiles/.config/ulauncher/*
+!dotfiles/.config/vim/
 !dotfiles/.config/zsh
+
+dotfiles/.config/vim/plugged
 
 .zcompdump*
 dotfiles/.config/zsh/.zsh_history
