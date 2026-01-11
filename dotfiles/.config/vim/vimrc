@@ -6,7 +6,8 @@ set hidden
 set nocp
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 set relativenumber number
-
+set directory^=$HOME/.local/state/vim/swap//
+ 
 filetype plugin on
 call plug#begin('~/.config/vim/plugged')
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
