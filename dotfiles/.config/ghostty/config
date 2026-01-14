@@ -50,3 +50,4 @@ command = /usr/bin/zsh -l -i
 font-family = JetBrainsMono Nerd Font
 font-size = 13
 mouse-hide-while-typing = true
+cursor-style = bar

@@ -9,6 +9,8 @@ dotfiles/.config/git/config.local
 !dotfiles/.config/git
 !dotfiles/.config/ghostty
 !dotfiles/.config/ghostty/*
+!dotfiles/.config/nvim
+!dotfiles/.config/nvim/*
 !dotfiles/.config/kitty/
 !dotfiles/.config/kitty/*
 !dotfiles/.config/tiling-assistant/
