@@ -1,0 +1,20 @@
+{
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.useLibraryCodeForTypes": true,
+  "coc.preferences.virtualText": false,
+  "python.showWorkspaceSymbols": false,
+  "pyright.showTypeHints": false,
+  "signature.enable": false,
+  "inlayHint.enable": false,
+  "inlayHint.display": "none",
+  "inlayHint.hide": true,
+  "diagnostic.virtualText": false,
+  "suggest.detailField": "menu",
+  "python.analysis.inlayHints.variableTypes": false,
+  "python.analysis.inlayHints.functionReturnTypes": false,
+  "python.analysis.inlayHints.callArgumentNames": "none",
+  "python.analysis.inlayHints.parameterTypes": false,
+  "pyright.inlayHints.enable": false
+
+}
