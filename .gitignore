@@ -11,6 +11,8 @@ dotfiles/.config/git/config.local
 !dotfiles/.config/ghostty/*
 !dotfiles/.config/nvim
 !dotfiles/.config/nvim/*
+!dotfiles/.config/lazygit/
+!dotfiles/.config/lazygit/*
 !dotfiles/.config/kitty/
 !dotfiles/.config/kitty/*
 !dotfiles/.config/tiling-assistant/
