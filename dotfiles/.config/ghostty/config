@@ -51,3 +51,5 @@ font-family = JetBrainsMono Nerd Font
 font-size = 13
 mouse-hide-while-typing = true
 cursor-style = bar
+keybind = ctrl+shift+x=next_tab
+keybind = ctrl+shift+z=previous_tab

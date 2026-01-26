@@ -75,7 +75,7 @@ ZSH_THEME="headline"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting direnv zsh-shift-select)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting direnv zsh-shift-select vi-mode)
 
 
 typeset -A ZSH_HIGHLIGHT_STYLES

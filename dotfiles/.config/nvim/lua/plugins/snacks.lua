@@ -9,5 +9,10 @@ return {
         },
       },
     },
+    animate = {
+      scroll = {
+        enabled = false,
+      },
+    },
   },
 }
