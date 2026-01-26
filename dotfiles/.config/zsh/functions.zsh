@@ -38,16 +38,16 @@ function stop_project_containers() {
   list_docker_ids_for_container $1 | xargs docker stop
 }
 
-bindkey -v
-
-function zle-keymap-select {
-  if [[ $KEYMAP == vicmd ]]; then
-    echo -ne '\e[1 q'   # block cursor
-    RPROMPT="%F{yellow}[NORMAL]%f"
-  else
-    echo -ne '\e[5 q'   # beam cursor
-    RPROMPT="%F{green}[INSERT]%f"
-  fi
-  zle reset-prompt
-}
-zle -N zle-keymap-select
+# bindkey -v
+#
+# function zle-keymap-select {
+#   if [[ $KEYMAP == vicmd ]]; then
+#     echo -ne '\e[1 q'   # block cursor
+#     RPROMPT="%F{yellow}[NORMAL]%f"
+#   else
+#     echo -ne '\e[5 q'   # beam cursor
+#     RPROMPT="%F{green}[INSERT]%f"
+#   fi
+#   zle reset-prompt
+# }
+# zle -N zle-keymap-select
