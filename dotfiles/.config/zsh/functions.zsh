@@ -49,3 +49,7 @@ function zle-keymap-select {
   zle reset-prompt
 }
 zle -N zle-keymap-select
+
+function zle-line-init { zle-keymap-select } 
+zle -N zle-line-init
+
