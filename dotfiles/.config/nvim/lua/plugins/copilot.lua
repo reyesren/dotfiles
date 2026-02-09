@@ -26,5 +26,16 @@ return {
       debug = false,
       model = "claude-sonnet-4.5",
     },
+    keys = {
+      { "<leader>aa", false },
+      {
+        "<leader>aq",
+        function()
+          return require("CopilotChat").toggle()
+        end,
+        desc = "Toggle (CopilotChat)",
+        mode = { "n", "x" },
+      },
+    },
   },
 }
