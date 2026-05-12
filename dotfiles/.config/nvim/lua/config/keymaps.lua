@@ -2,16 +2,20 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 local map = vim.keymap.set
-local opts = { noremap = true, silent = true }
 
-map({ "n", "x" }, "<A-J>", "10j", { desc = "Scroll down 10 lines" })
-map({ "n", "x" }, "<A-K>", "10k", { desc = "Scroll up 10 lines" })
+map({ "n", "x" }, "K", "10kzz", {
+  noremap = true,
+  remap = false,
+  desc = "Move up 10 lines and center",
+})
 
-map({ "n", "v" }, "d", '"_d', opts)
-map({ "n", "v" }, "D", '"_D', opts)
-map({ "n", "v" }, "c", '"_c', opts)
-map({ "n", "v" }, "C", '"_C', opts)
+map({ "n", "x" }, "J", "10jzz", {
+  noremap = true,
+  remap = false,
+  desc = "Move down 10 lines and center",
+})
 
--- Make x (and X) not yank
-map("n", "x", '"_x', opts)
-map("n", "X", '"_X', opts)
+map("n", "<leader>ghq", "<cmd>only<cr>", { desc = "Close Diff View" })
+
+pcall(vim.keymap.del, { "n", "x", "o" }, "]c")
+pcall(vim.keymap.del, { "n", "x", "o" }, "[c")

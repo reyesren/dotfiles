@@ -75,7 +75,7 @@ ZSH_THEME="headline"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting direnv zsh-shift-select zsh-vi-mode)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting direnv zsh-shift-select)
 
 
 typeset -A ZSH_HIGHLIGHT_STYLES
@@ -149,7 +149,14 @@ if [[ -n "$NVM_DIR" && -s "$NVM_DIR/nvm.sh" ]]; then
   source "$NVM_DIR/nvm.sh"
 fi
 
+if which mise > /dev/null; then
+  eval "$(mise activate zsh)"
+fi
+
 if type rg &> /dev/null; then
   export FZF_DEFAULT_COMMAND='rg --files --hidden'
   export FZF_DEFAULT_OPTS='-m'
 fi
+
+# bun completions
+[ -s "/Users/renzoreyes/.bun/_bun" ] && source "/Users/renzoreyes/.bun/_bun"

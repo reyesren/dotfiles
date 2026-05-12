@@ -3,15 +3,11 @@ return {
   opts = {
     picker = {
       sources = {
-        files = {
+        explorer = {
+          -- Putting it here specifically for the explorer source
           hidden = true,
-          ignored = false,
+          ignored = true,
         },
-      },
-    },
-    animate = {
-      scroll = {
-        enabled = false,
       },
     },
   },

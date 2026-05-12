@@ -6,5 +6,7 @@ return {
       maxcount = 999999, -- Set a high limit
       timeout = 500,
     })
+    opts.tabline = nil
+    return opts
   end,
 }

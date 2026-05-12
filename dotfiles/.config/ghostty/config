@@ -42,14 +42,23 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-theme = citruszest
-
-background-opacity = 0.9
+background = #191919
 background-blur-radius = 40
-command = /usr/bin/zsh -l -i
-font-family = JetBrainsMono Nerd Font
-font-size = 13
-mouse-hide-while-typing = true
+background-opacity = 0.9
+# command = /usr/bin/zsh -l -i
 cursor-style = bar
-keybind = ctrl+shift+x=next_tab
-keybind = ctrl+shift+z=previous_tab
+
+# font-family = JetBrainsMono Nerd Font
+# font-family = FiraCode Nerd Font Mono
+# font-family = RobotoMono Nerd Font Mono
+# font-family = Hack Nerd Font Mono
+# font-family = JuliaMonoForced Nerd Font Mono
+font-family = BlexMono Nerd Font Mono 
+# font-family = CaskaydiaCove Light Nerd Font Mono 
+font-size = 13
+font-style = "Text"
+
+mouse-hide-while-typing = true
+
+theme = GitLab Dark Grey
+# theme = moonfly 
