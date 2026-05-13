@@ -143,6 +143,7 @@ fi
 
 if which fzf > /dev/null; then
   [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+  export FZF_CTRL_T_OPTS="--preview 'bat --style=numbers --color=always {}'"
 fi
 
 if [[ -n "$NVM_DIR" && -s "$NVM_DIR/nvm.sh" ]]; then
