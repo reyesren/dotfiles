@@ -6,6 +6,7 @@ dotfiles/.config/git/config.local
 
 
 !dotfiles/.config/
+!dotfiles/.config/aerospace
 !dotfiles/.config/git
 !dotfiles/.config/ghostty
 !dotfiles/.config/ghostty/*
