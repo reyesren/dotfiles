@@ -20,9 +20,11 @@ dotfiles/.config/git/config.local
 !dotfiles/.config/ulauncher/
 !dotfiles/.config/ulauncher/*
 !dotfiles/.config/vim/
+!dotfiles/.config/tmux/
 !dotfiles/.config/zsh
 
 dotfiles/.config/vim/plugged
+dotfiles/.config/tmux/plugins
 
 .zcompdump*
 dotfiles/.config/zsh/.zsh_history
