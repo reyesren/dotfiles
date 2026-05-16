@@ -38,7 +38,7 @@ formulae=(
 )
 
 casks=(
-  aerospace background-music copilot-cli dotnet-sdk
+  nikitabobko/tap/aerospace background-music copilot-cli dotnet-sdk
   font-blex-mono-nerd-font font-caskaydia-cove-nerd-font font-fira-code
   font-fira-code-nerd-font font-fira-mono-nerd-font font-hack-nerd-font
   font-ibm-plex-mono font-inconsolata-lgc-nerd-font
