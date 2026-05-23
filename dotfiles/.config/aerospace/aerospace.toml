@@ -233,8 +233,8 @@ if.app-id = 'com.microsoft.teams2'
 run = 'move-node-to-workspace W'
 
 [workspace-to-monitor-force-assignment]
-C = 1 # chrome 
-B = 2 # backup browser 
-M = 2 # main 
-P = 3 # discord
-W = 3 # work
+C = ['Built-in Retina Display'] # chrome 
+B = ['LG ULTRAWIDE']            # backup browser 
+M = ['LG ULTRAWIDE']            # main
+P = ['Built-in Retina Display'] # discord
+W = ['Built-in Retina Display'] # work

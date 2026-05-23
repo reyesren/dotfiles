@@ -45,6 +45,7 @@ casks=(
   font-jetbrains-mono-nerd-font font-monaspice-nerd-font
   font-mononoki-nerd-font font-roboto-mono-nerd-font
   font-sauce-code-pro-nerd-font font-space-mono-nerd-font ghostty maccy
+  raycast spotify
 )
 
 run brew update
