@@ -172,7 +172,7 @@ alt-cmd-ctrl-shift-7 = 'move-node-to-workspace 7'
 alt-cmd-ctrl-shift-8 = 'move-node-to-workspace 8'
 alt-cmd-ctrl-shift-9 = 'move-node-to-workspace 9'
 alt-cmd-ctrl-shift-b = 'move-node-to-workspace B'
-alt-cmd-ctrl-shift-c = 'move-node-to-workspace C'
+alt-cmd-ctrl-shift-c = 'move-node-to-workspace C --focus-follows-window'
 alt-cmd-ctrl-shift-d = 'move-node-to-workspace D'
 alt-cmd-ctrl-shift-e = 'move-node-to-workspace E'
 alt-cmd-ctrl-shift-g = 'move-node-to-workspace G'
@@ -227,7 +227,7 @@ run = 'move-node-to-workspace M'
 
 [[on-window-detected]]
 if.app-id = 'com.google.Chrome'
-run = 'move-node-to-workspace C'
+run = 'move-node-to-workspace B'
 
 [[on-window-detected]]
 if.app-id = 'com.spotify.client'
