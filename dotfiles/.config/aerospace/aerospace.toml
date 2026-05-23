@@ -154,11 +154,8 @@ alt-cmd-ctrl-7 = 'workspace 7'
 alt-cmd-ctrl-8 = 'workspace 8'
 alt-cmd-ctrl-9 = 'workspace 9'
 alt-cmd-ctrl-b = 'workspace B'
-alt-cmd-ctrl-c = 'workspace C'
-alt-cmd-ctrl-d = 'workspace D'
 alt-cmd-ctrl-m = 'workspace M'
 alt-cmd-ctrl-p = 'workspace P'
-alt-cmd-ctrl-t = 'workspace T'
 alt-cmd-ctrl-w = 'workspace W'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
@@ -172,11 +169,8 @@ alt-cmd-ctrl-shift-7 = 'move-node-to-workspace 7'
 alt-cmd-ctrl-shift-8 = 'move-node-to-workspace 8'
 alt-cmd-ctrl-shift-9 = 'move-node-to-workspace 9'
 alt-cmd-ctrl-shift-b = ['move-node-to-workspace B', 'workspace B']
-alt-cmd-ctrl-shift-c = ['move-node-to-workspace C', 'workspace C']
-alt-cmd-ctrl-shift-d = ['move-node-to-workspace D', 'workspace D']
 alt-cmd-ctrl-shift-m = ['move-node-to-workspace M', 'workspace M']
 alt-cmd-ctrl-shift-p = ['move-node-to-workspace P', 'workspace P']
-alt-cmd-ctrl-shift-t = ['move-node-to-workspace T', 'workspace T']
 alt-cmd-ctrl-shift-w = ['move-node-to-workspace W', 'workspace W']
 
 alt-cmd-ctrl-shift-f = ['fullscreen']
@@ -225,6 +219,10 @@ if.app-id = 'com.hnc.Discord'
 run = 'move-node-to-workspace P'
 
 [[on-window-detected]]
+if.app-id = 'com.app.MobileSMS'
+run = 'move-node-to-workspace P'
+
+[[on-window-detected]]
 if.app-id = 'com.microsoft.Outlook'
 run = 'move-node-to-workspace W'
 
@@ -233,7 +231,6 @@ if.app-id = 'com.microsoft.teams2'
 run = 'move-node-to-workspace W'
 
 [workspace-to-monitor-force-assignment]
-C = ['Built-in Retina Display'] # chrome 
 B = ['LG ULTRAWIDE']            # backup browser 
 M = ['LG ULTRAWIDE']            # main
 P = ['Built-in Retina Display'] # discord
