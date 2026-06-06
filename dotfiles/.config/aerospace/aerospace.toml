@@ -171,6 +171,7 @@ alt-cmd-ctrl-shift-8 = 'move-node-to-workspace 8'
 alt-cmd-ctrl-shift-9 = 'move-node-to-workspace 9'
 alt-cmd-ctrl-shift-b = ['move-node-to-workspace B', 'workspace B']
 alt-cmd-ctrl-shift-m = ['move-node-to-workspace M', 'workspace M']
+alt-cmd-ctrl-shift-p = ['move-node-to-workspace P', 'workspace P']
 alt-cmd-ctrl-shift-s = ['move-node-to-workspace S', 'workspace S']
 alt-cmd-ctrl-shift-w = ['move-node-to-workspace W', 'workspace W']
 
@@ -220,10 +221,6 @@ if.app-id = 'com.hnc.Discord'
 run = 'move-node-to-workspace P'
 
 [[on-window-detected]]
-if.app-id = 'com.app.MobileSMS'
-run = 'move-node-to-workspace P'
-
-[[on-window-detected]]
 if.app-id = 'com.microsoft.Outlook'
 run = 'move-node-to-workspace W'
 
@@ -232,8 +229,8 @@ if.app-id = 'com.microsoft.teams2'
 run = 'move-node-to-workspace W'
 
 [workspace-to-monitor-force-assignment]
-B = ['LG ULTRAWIDE', 'XV340CK P'] # backup browser 
-M = ['LG ULTRAWIDE', 'XV340CK P'] # main
-P = ['Built-in Retina Display']   # discord
-S = ['AG271QG4']                  # secondary
-W = ['Built-in Retina Display']   # work
+B = 1 # backup browser 
+M = 1 # main
+P = 2 # discord
+S = 2 # secondary
+W = 2 # work
