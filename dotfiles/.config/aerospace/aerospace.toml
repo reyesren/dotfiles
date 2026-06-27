@@ -229,8 +229,8 @@ if.app-id = 'com.microsoft.teams2'
 run = 'move-node-to-workspace W'
 
 [workspace-to-monitor-force-assignment]
-B = 1 # backup browser 
-M = 1 # main
-P = 2 # discord
-S = 2 # secondary
-W = 2 # work
+B = 2 # browser 
+M = 2 # main
+P = 3 # discord
+S = 1 # secondary
+W = 3 # work

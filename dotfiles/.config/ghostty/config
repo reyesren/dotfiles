@@ -59,6 +59,7 @@ font-size = 13
 font-style = "Text"
 
 mouse-hide-while-typing = true
+confirm-close-surface = false
 
 theme = GitLab Dark Grey
 # theme = moonfly 
